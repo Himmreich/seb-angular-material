@@ -1,7 +1,7 @@
 @import '@sebgroup/fonts/scss/variables';
 
 // For fonts to load, we need to change path to be relative to project root.
-$seb-font-path: '@sebgroup/fonts/fonts';
+$seb-font-path: '@sebgroup/fonts/fonts' !default;
 
 @import '@sebgroup/fonts/scss/path';
 
